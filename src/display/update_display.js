@@ -249,6 +249,7 @@ function patchDisplay(cm, updateNumbersFrom, dims) {
 }
 
 export function updateGutterSpace(display) {
+  console.log(display.gutters.offsetWidth)
   let width = display.gutters.offsetWidth
   display.sizer.style.marginLeft = width + "px"
 }
