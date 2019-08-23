@@ -249,9 +249,8 @@ function patchDisplay(cm, updateNumbersFrom, dims) {
 }
 
 export function updateGutterSpace(display) {
-  console.log(display.gutters.offsetWidth)
-  let width = display.gutters.offsetWidth
-  display.sizer.style.marginLeft = width + "px"
+     var width = display.gutters.offsetWidth;
+    display.sizer.style.marginLeft = 0 + "px";
 }
 
 export function setDocumentHeight(cm, measure) {
